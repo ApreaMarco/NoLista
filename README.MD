@@ -36,7 +36,7 @@ classDiagram
 class Classe {
     -int id
     -String name
-    -Map<Integer, Classe> mappaClasse$
+    -Map~Integer, Classe~ mappaClasse$
     +Classe(int id,String name)
     +int getId()
     +void setId(int id)
@@ -46,8 +46,8 @@ class Classe {
     +Classe getClassebyId(int id)$
     +void removeClasseById(int id)$
     +void addStudente(int idStudente)
-    +Iterable<Studente> getListaStudenti()
-    +Iterable<Integer> getListaIdClasse()$
+    +Iterable~Studente~ getListaStudenti()
+    +Iterable~Integer~ getListaIdClasse()$
 }
 Classe "1" o-- "N" Classe : mappaClasse
 ```
@@ -67,7 +67,7 @@ classDiagram
 class Studente {
     -int id
     -String matricola
-    -Map<Integer, Studente> mappaStudente$
+    -Map~Integer, Studente~ mappaStudente$
     -int idClasse
     +Studente(int id,String matricola)
     +int getId()
@@ -79,7 +79,7 @@ class Studente {
     +void setIdClasse(int idClasse)
     +Studente getStudentebyID(int id)$
     +void removeStudenteById(int id)$
-    +Iterable<Integer> getListaIdStudente()$
+    +Iterable~Integer~ getListaIdStudente()$
 }
 Studente "1" o-- "N" Studente : mappaStudente
 ```
