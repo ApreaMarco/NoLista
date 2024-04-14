@@ -1,0 +1,27 @@
+@startuml
+
+skinparam svgLinkTarget _parent
+skinparam linetype ortho
+package it.edu.marconiverona.nolista [[it/edu/marconiverona/nolista/package-summary.html{it.edu.marconiverona.nolista}]] {
+}
+
+class "<b><size:14>NoLista</b>" as it.edu.marconiverona.nolista.NoLista  [[it/edu/marconiverona/nolista/NoLista.html{it.edu.marconiverona.nolista.NoLista}]] {
+}
+
+hide it.edu.marconiverona.nolista.NoLista fields
+hide it.edu.marconiverona.nolista.NoLista methods
+
+class "<b><size:14>Studente</b>" as it.edu.marconiverona.nolista.Studente  [[it/edu/marconiverona/nolista/Studente.html{it.edu.marconiverona.nolista.Studente}]] {
+}
+
+hide it.edu.marconiverona.nolista.Studente fields
+hide it.edu.marconiverona.nolista.Studente methods
+
+class "<b><size:14>Classe</b>" as it.edu.marconiverona.nolista.Classe  [[it/edu/marconiverona/nolista/Classe.html{it.edu.marconiverona.nolista.Classe}]] {
+}
+
+hide it.edu.marconiverona.nolista.Classe fields
+hide it.edu.marconiverona.nolista.Classe methods
+
+
+@enduml

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="117px" preserveAspectRatio="none" style="width:196px;height:117px;background:#FFFFFF;" version="1.1" viewBox="0 0 196 117" width="196px" zoomAndPan="magnify"><defs/><g><!--MD5=[b957ea42d34a254832f538c8c3823418]
+class it.edu.marconiverona.nolista.NoLista--><a href="../../../../it/edu/marconiverona/nolista/NoLista.html" target="_parent" title="it.edu.marconiverona.nolista.NoLista" xlink:actuate="onRequest" xlink:href="../../../../it/edu/marconiverona/nolista/NoLista.html" xlink:show="new" xlink:title="it.edu.marconiverona.nolista.NoLista" xlink:type="simple"><g id="elem_it.edu.marconiverona.nolista.NoLista"><rect codeLine="5" fill="#F1F1F1" height="96.7851" id="it.edu.marconiverona.nolista.NoLista" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="175" x="7" y="7"/><ellipse cx="23.8" cy="28.335" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M23.2688,35.2569 Q21.5188,35.2569 20.3859,34.5147 Q19.2531,33.7725 18.6984,32.421 Q18.1438,31.0694 18.1438,29.2725 Q18.1438,27.2413 18.8,25.7881 Q19.4563,24.335 20.7375,23.5538 Q22.0188,22.7725 23.8938,22.7725 Q24.7844,22.7725 25.4563,22.9522 Q26.1281,23.1319 26.8156,23.4756 L26.0031,25.4913 Q25.3781,25.1788 24.8391,25.0538 Q24.3,24.9288 23.8156,24.9288 Q22.6438,24.9288 21.9406,25.46 Q21.2375,25.9913 20.9406,26.9444 Q20.6438,27.8975 20.6438,29.1631 Q20.6438,31.1788 21.3625,32.1397 Q22.0813,33.1006 23.675,33.1006 Q24.2688,33.1006 24.8938,32.9444 Q25.5188,32.7881 26.3469,32.4131 L26.3469,34.6319 Q25.6125,34.9444 24.8234,35.1006 Q24.0344,35.2569 23.2688,35.2569 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="81.2" y="26.9578">NoLista</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="139" x="38.2" y="41.7417">it.edu.marconiverona.nolista</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="181" y1="49.67" y2="49.67"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="181" y1="57.67" y2="57.67"/><ellipse cx="18" cy="72.6988" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="27" y="76.6278">NoLista()</text><ellipse cx="18" cy="91.7563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="149" x="27" y="95.6853">void main(String args)</text></g></a><!--MD5=[4d200f1d6e42b5aeeb62ef7c017d4b05]
+@startuml
+
+skinparam svgLinkTarget _parent
+skinparam linetype ortho
+set namespaceSeparator none
+class "<b><size:14>NoLista</b>\n<size:10>it.edu.marconiverona.nolista" as it.edu.marconiverona.nolista.NoLista  [[../../../../it/edu/marconiverona/nolista/NoLista.html{it.edu.marconiverona.nolista.NoLista}]] {
++NoLista()
+{static} +void main(String args)
+}
+
+
+
+@enduml
+
+PlantUML version 1.2022.8(Sun Sep 25 11:00:33 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
