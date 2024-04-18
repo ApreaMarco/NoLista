@@ -74,7 +74,7 @@ public class Classe {
             toStringListaStudente += studente.toString() + '\n';
         }
         toStringListaStudente += "]";
-        return "ClasseSCNL{" + "id=" + id + ", name=" + name + ", listaStudID=" + toStringListaStudente + '}';
+        return "Classe{" + "id=" + id + ", name=" + name + ", listaStudente=" + toStringListaStudente + '}';
     }
 
     // Metodo che restituisce un instanza di Classe che ha quell'id -> SELECT
