@@ -67,7 +67,7 @@ public class Studente {
      */
     @Override
     public String toString() {
-        return "StudenteSCI{" + "id=" + id + ", matricola=" + matricola + ", idClasseSC=" + idClasse + '}';
+        return "Studente{" + "id=" + id + ", matricola=" + matricola + ", idClasseSC=" + idClasse + '}';
     }
 
     // Collegamento con la Classe
