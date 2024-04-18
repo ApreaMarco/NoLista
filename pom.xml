@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <exec.mainClass>it.edu.marconiverona.nolista_v2.NoLista_v2</exec.mainClass>
+        <exec.mainClass>it.edu.marconiverona.nolista.NoLista</exec.mainClass>
     </properties>
     <name>NoLista</name>
 </project>
