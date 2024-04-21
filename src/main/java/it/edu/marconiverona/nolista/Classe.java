@@ -22,6 +22,7 @@ public class Classe {
     private String name;
     // Map che contiene tutte le istanze di Classe
     private static Map<Integer, Classe> mappaClasse = new HashMap<>(100);// 100 capability
+    private int idScuola;
 
     /**
      * Costruisce una nuova istanza di {@link Classe} con l'ID e il nome
@@ -58,6 +59,15 @@ public class Classe {
         this.name = name;
     }
 
+    public int getIdScuola() {
+        return idScuola;
+    }
+
+    public void setIdScuola(int idScuola) {
+        this.idScuola = idScuola;
+    }
+
+    
     /**
      * Restituisce una rappresentazione in stringa dell'oggetto {@link Classe}.
      * Questo include l'ID della classe, il nome e una lista di ID studente
@@ -74,7 +84,7 @@ public class Classe {
             toStringListaStudente += studente.toString() + '\n';
         }
         toStringListaStudente += "]";
-        return "Classe{" + "id=" + id + ", name=" + name + ", listaStudente=" + toStringListaStudente + '}';
+        return "Classe{" + "id=" + id + ", name=" + name + ", idScuola=" + idScuola + ", listaStudente=" + toStringListaStudente + '}';
     }
 
     // Metodo che restituisce un instanza di Classe che ha quell'id -> SELECT
